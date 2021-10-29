@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  font-weight: 400;
+  font-size: 1rem;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label,
+span {
+  font-weight: 500;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+a {
+
+  text-decoration: none !important;
+}
+
+body,
+html,
+.App,
+#root,
+.auth-wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.navbar-light {
+  background-color: #ffffff;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+}
+
+.auth-wrapper {
+  margin-top: 6%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+}
+
+.auth-inner {
+  width: 450px;
+  margin: 0 auto;
+  background: #fafbff;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+  padding: 40px 55px 45px 55px;
+  border-radius: 15px;
+  transition: all .3s;
+}
+
+.auth-inner button {
+  margin-top: 4%;
+  float: right;
+}
+
+.auth-wrapper .form-control:focus {
+  border-color: #167bff;
+  box-shadow: none;
+}
+
+.auth-wrapper h3 {
+  text-align: center;
+  margin: 0;
+  line-height: 1;
+  padding-bottom: 20px;
+}
+
+.custom-control-label {
+  font-weight: 400;
+}
+
+.errorMsg {
+  color: #cc0000;
+  margin-bottom: 12px;
+}
+
+.sucessMsg {
+  color: #6B8E23;
+  margin-bottom: 10px;
+}
+
+.forgot-password,
+.forgot-password a {
+  text-align: left;
+  font-size: 13px;
+  padding-top: 10px;
+  color: #7f7d7d;
+  margin: 0;
+}
+
+.forgot-password a {
+  color: #167bff;
+}
+
+.contactus {
+  margin-top: 3%;
+  padding-top: 2%;
+  color: #ffffff !important;
+}
+
+.section-header {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.section-header p {
+  margin: 10px 0 0 0;
+  padding: 0;
+  font-size: 38px;
+  line-height: 42px;
+  font-weight: 700;
+  color: #012970;
+  text-transform: uppercase;
+}
+
+.contactus .info-box {
+  color: #444444;
+  background: #fafbff;
+  padding: 30px;
+  margin-bottom: 13%;
+  box-shadow: 0px 14px 80px rgb(34 35 58 / 20%);
+}
+
+.contactus .info-box i {
+  font-size: 38px;
+  line-height: 0;
+  color: #4154f1;
+}
+
+.contactus .info-box h3 {
+  font-size: 20px;
+  color: #012970;
+  font-weight: 700;
+  margin: 20px 0 10px 0;
+}
+
+.contactus .info-box p {
+  padding: 0;
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.contactus .contact-form {
+  background: #fafbff;
+  padding: 30px;
+  /* height: 100%; */
+  box-shadow: 0px 14px 80px rgb(34 35 58 / 20%);
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.contactus .contact-form input,
+.contactus .contact-form textarea {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+  border-radius: 0;
+  margin-top: 3%;
+}
+
+.contactus .contact-form input:focus,
+.contactus .contact-form textarea:focus {
+  border-color: #4154f1;
+}
+
+.contactus .contact-form input {
+  padding: 24px 15px;
+}
+
+.contactus .contact-form textarea {
+  padding: 48px 15px;
+}
+
+.contactus .contact-form button[type=submit] {
+  background: #4154f1;
+  border: 0;
+  padding: 6px 30px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 4px;
+  margin-top: 4%;
+}
+
+.contactus .contact-form button[type=submit]:hover {
+  background: #5969f3;
+}
+
+.about {
+  margin-top: 13%;
+}
+
+.about .content {
+  background-color: #f6f9ff;
+  padding: 40px;
+  margin-top: 10%;
+}
+
+.about h3 {
+  font-size: 14px;
+  font-weight: 700;
+  color: #4154f1;
+  text-transform: uppercase;
+}
+
+.about h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #012970;
+}
+
+.about p {
+  margin: 15px 0 30px 0;
+  line-height: 24px;
+}
+
+.about .btn-read-more {
+  line-height: 0;
+  padding: 20px 42px;
+  border-radius: 4px;
+  transition: 0.5s;
+  color: #fff;
+  background: #4154f1;
+  box-shadow: 0px 5px 25px rgba(65, 84, 241, 0.3);
+}
+
+.about .btn-read-more span {
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.align-self-center {
+  align-self: center !important;
+}
+
+.align-items-center {
+  align-items: center !important;
+}
+
+.justify-content-center {
+  justify-content: center !important;
+}
+
+.d-inline-flex {
+  display: inline-flex !important;
+}
+.text-lg-start {
+  text-align: left!important;
+}
+
+.home {
+  margin-top: 13%;
+}
+
+.home h1 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  color: #012970;
+}
+
+.home h2 {
+  color: #444444;
+  margin: 15 px 0 0 0;
+  font-size: 26px;
+}
+
+.home .btn-get-started {
+  margin-top: 30 px;
+  line-height: 0;
+  padding: 25px 40px;
+  border-radius: 4 px;
+  transition: 0.5s;
+  color: #fff;
+  background: #4154f1;
+  box-shadow: 0px 5px 30px rgb(65 84 241 / 40%);
+}
